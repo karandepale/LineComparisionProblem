@@ -1,0 +1,8 @@
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\bin\Debug\LineCompaarisionProblem.exe.config
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\bin\Debug\LineCompaarisionProblem.exe
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\bin\Debug\LineCompaarisionProblem.pdb
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\obj\Debug\LineCompaarisionProblem.csproj.AssemblyReference.cache
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\obj\Debug\LineCompaarisionProblem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\obj\Debug\LineCompaarisionProblem.csproj.CoreCompileInputs.cache
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\obj\Debug\LineCompaarisionProblem.exe
+C:\Users\Karan Depale\source\repos\LineCompaarisionProblem\LineCompaarisionProblem\obj\Debug\LineCompaarisionProblem.pdb
