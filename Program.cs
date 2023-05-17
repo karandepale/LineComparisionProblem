@@ -2,7 +2,7 @@
 
 namespace LineComparisonProblem
 {
-    internal class Line
+    internal class Line : IComparable<Line>
     {
         private double x1, y1, x2, y2;
 
@@ -22,12 +22,20 @@ namespace LineComparisonProblem
             return length;
         }
 
-        public bool Equals(Line other)
+        public int CompareTo(Line other)
         {
             if (other == null)
-                return false;
+                return 1;
 
-            return x1 == other.x1 && y1 == other.y1 && x2 == other.x2 && y2 == other.y2;
+            double thisLength = CalculateLength();
+            double otherLength = other.CalculateLength();
+
+            if (thisLength == otherLength)
+                return 0;
+            else if (thisLength < otherLength)
+                return -1;
+            else
+                return 1;
         }
     }
 
@@ -46,13 +54,19 @@ namespace LineComparisonProblem
             Console.WriteLine("The length of the first line is: " + length1);
             Console.WriteLine("The length of the second line is: " + length2);
 
-            if (line1.Equals(line2))
+            int comparisonResult = line1.CompareTo(line2);
+
+            if (comparisonResult == 0)
             {
                 Console.WriteLine("The two lines are equal.");
             }
+            else if (comparisonResult < 0)
+            {
+                Console.WriteLine("The first line is shorter than the second line.");
+            }
             else
             {
-                Console.WriteLine("The two lines are not equal.");
+                Console.WriteLine("The first line is longer than the second line.");
             }
         }
 
