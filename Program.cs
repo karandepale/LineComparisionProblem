@@ -16,13 +16,11 @@ namespace LineComparisonProblem
         {
             Console.WriteLine("Welcome to Line comparison problem");
 
-            // Prompt the user to enter the coordinates of the first point
             Console.Write("Enter the x-coordinate of the first point: ");
             double x1 = double.Parse(Console.ReadLine());
             Console.Write("Enter the y-coordinate of the first point: ");
             double y1 = double.Parse(Console.ReadLine());
 
-            // Prompt the user to enter the coordinates of the second point
             Console.Write("Enter the x-coordinate of the second point: ");
             double x2 = double.Parse(Console.ReadLine());
             Console.Write("Enter the y-coordinate of the second point: ");
@@ -30,7 +28,7 @@ namespace LineComparisonProblem
 
             // Calculate the length of the line
             double length = CalculateLength(x1, y1, x2, y2);
-            Console.WriteLine("The length of the line is: " + length);
+            Console.WriteLine("The length of the line is  : " + length);
         }
     }
 }
